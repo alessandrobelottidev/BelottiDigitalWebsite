@@ -1,0 +1,56 @@
+/* Tablet size or less */
+@media only screen and (max-width: 1080px) {
+
+  h1 { font-size: 48px; }
+  h2 { font-size: 34px; }
+
+  /* Footer */
+  .footer .block {
+    flex-direction: column;
+  }
+  .footer__description {
+    margin-bottom: 40px;
+  }
+  .footer__links {
+    margin-bottom: 40px;
+    padding-left: 0px;
+  }
+  .footer-container {
+    padding: 0px;
+  }
+
+}
+
+/* Phone size or less */
+@media only screen and (max-width: 540px) {
+
+  h1 { font-size: 40px; }
+  h2 { font-size: 28px; }
+
+  .btn-group { flex-direction: column; }
+  .btn-group .btn:nth-child(1) { margin-right: 0px; margin-bottom: 10px; }
+
+}
+
+@media (min-width: 1180px) {
+  
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+  .header .logo {max-width:220px;margin-top: 10px;}
+  .header .menu .first-item{margin-top: 0px;}
+  .header .nav__btn {margin-top:6px;}
+
+}
+  

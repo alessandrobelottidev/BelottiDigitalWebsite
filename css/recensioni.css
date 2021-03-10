@@ -1,0 +1,30 @@
+/* Hero Section */
+.hero-section { width: 100%; min-height: 60vh; display: flex; align-items: center;  justify-content: center; color: var(--background-white); text-align: center; }
+.webp .hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),url("../images/recensioni/recensioni-belotti-digital.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.js .hero-section, .no-js .hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),url("../images/recensioni/recensioni-belotti-digital.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section .content { max-width: 1000px; padding-top: 102px; padding-bottom: 60px; }
+.hero-section h1 { margin-bottom: 20px;}
+.hero-section .btn { margin: 40px auto 0px auto; }
+
+/* Articles section */
+.reviews-list { padding: 80px 20px 80px 20px; }
+.review-card { background-color: var(--background-white); padding: 30px 20px; border-radius: 6px; text-align: center; box-shadow: 0px 4px 10px #d1d1d1; flex: 1; }
+.review-card:nth-child(2) { margin: 0 20px; }
+.review-card h3 { margin-top: 20px; margin-bottom: 10px;}
+.reviews-content { margin-bottom: 40px; align-items: self-end; }
+.review-image { max-width: 140px; margin: 0 auto; }
+.reviews-logos { margin: 20px 0; }

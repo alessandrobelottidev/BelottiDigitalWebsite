@@ -1,0 +1,24 @@
+/* Tablet size or less */
+@media only screen and (max-width: 1080px) {
+
+    /* Reviews */
+    .reviews-list { padding: 40px 10px 40px 10px; }
+    .reviews-content { flex-direction: column; padding: 0; margin-bottom: 20px; }
+    .review-card:nth-child(2) { margin: 20px 0; }
+
+}
+
+
+/* Tablet size or less */
+@media only screen and (max-width: 960px) {
+
+    
+
+}
+
+/* Phone size or less */
+@media only screen and (max-width: 540px) {
+
+    
+
+}

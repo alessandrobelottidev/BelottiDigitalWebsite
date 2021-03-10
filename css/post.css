@@ -1,0 +1,11 @@
+/* Hero Section */
+.hero-section { min-height: 60vh; padding: 50px 0px 25px 0px; display: flex; align-items: center;  justify-content: center; color: var(--background-white); text-align: center; }
+.hero-section .content { max-width: 1000px; padding-top: 62px; padding-bottom: 40px; }
+.hero-section h1 { margin-bottom: 20px;}
+.hero-section .btn { margin: 40px auto 0px auto; }
+
+/* Content */
+.articleContent { margin: 60px 0px 80px 0px; }
+.articleContent > .block { flex-direction: column; }
+.articleContent > .block > * { text-align: left; width: 100%; }
+.articleContent h2 { margin-top: 20px; }

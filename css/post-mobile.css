@@ -1,0 +1,11 @@
+/* Tablet size or less */
+@media only screen and (max-width: 1080px) {
+    
+}
+
+/* Phone size or less */
+@media only screen and (max-width: 540px) {
+
+    /* Hero section */
+    .hero-section { min-height: 60vh; }
+}

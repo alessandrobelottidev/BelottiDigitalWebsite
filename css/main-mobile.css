@@ -1,0 +1,42 @@
+/* Tablet size or less */
+@media only screen and (max-width: 1080px) {
+    /* About us */
+    .about-us .video { width: 100%; }
+    .about-us .text { width: 100%; padding: 20px 0 0 0; }
+    .about-us .block { flex-direction: column; }
+
+    /* Services */
+    h3 { font-size: 22px; }
+    .services .block { flex-direction: column; }
+    .services .service-card { margin-bottom: 20px; }
+    .services .middle-card { margin: 0 0 20px 0; }
+    .services .block { padding: 0px; }
+
+    /* Portfolio */
+    .portfolio .portfolio-card { max-width: 100%; margin-bottom: 80px; }
+    .portfolio .block { flex-direction: column; }
+    .portfolio .block .portfolio-card { text-align: center; }
+    .portfolio .block .portfolio-card .btn-group{ justify-content: center; }
+    .portfolio .block .portfolio-card:nth-child(1) { padding-right: 0px; }
+    .portfolio .block .portfolio-card:nth-child(2) { padding-left: 0px; }
+    .portfolio .block { padding: 0px; margin-bottom: 0px;}
+
+    /* Steps */
+    .three-steps .block { flex-direction: column; padding: 0px; }
+    .three-steps .step:nth-child(2) { margin: 80px 0px; }
+
+    /* Reviews */
+    .reviews-content { flex-direction: column; padding: 0;}
+    .review-card:nth-child(2) { margin: 20px 0; }
+    .review-google, .review-fiverr { max-width: 100px; padding: 10px; }
+}
+
+/* Phone size or less */
+@media only screen and (max-width: 540px) {
+
+    /* About us */
+    .about-us .converting-video { width: 110%; margin-left: -5%; }
+
+    /* Contact Form */
+    .form-wrapper { margin-left: 0px; margin-right: 0px; padding-left: 15px; padding-right: 15px; }
+}

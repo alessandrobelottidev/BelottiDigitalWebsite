@@ -1,0 +1,31 @@
+/* Hero Section */
+.hero-section { width: 100%; min-height: 60vh; display: flex; align-items: center;  justify-content: center; color: var(--background-white); text-align: center; }
+.webp .hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),url("../images/blog/hero-section.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.js .hero-section, .no-js .hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ),url("../images/blog/hero-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-section .content { max-width: 1000px; padding-top: 102px; padding-bottom: 60px; }
+.hero-section h1 { margin-bottom: 20px;}
+.hero-section .btn { margin: 40px auto 0px auto; }
+
+/* Articles section */
+.articles-list { padding: 80px 0px 40px 0px; }
+.articles-list h2 { text-align: center; margin: 0px; margin-bottom: 40px; }
+.articles-list .block { flex-basis: 33%; align-items: flex-start; margin-bottom: 40px; }
+.articleCard { max-width: 33%; width: 100%; padding: 10px; }
+.articleCard img {width: 100%; border-radius: 12px 12px 0px 0px;}
+.articleCard .publisher { font-size: 16px; margin-top: 10px; }
+.articleCard .description { margin: 10px 0px; }
+.articleCard a { color: var(--accent); font-weight: 600; }
